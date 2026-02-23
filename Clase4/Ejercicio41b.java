@@ -9,8 +9,11 @@ public class Ejercicio41b {
         System.out.println("Digite la temperatura..");
         int temp = sc.nextInt();
         if (temp >= 100){
+            System.out.println("Punto de ebullicion");
+        }else{   
             System.out.println("No esta en punto de ebullicion");
         }
         sc.close();
     }
-}
+}        
+ 
