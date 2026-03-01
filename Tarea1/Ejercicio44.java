@@ -9,7 +9,6 @@ public class Ejercicio44 {
         System.out.print("Ingrese un número: ");
         double num = sc.nextDouble();
         
-       
         if (num < 0) {
             System.out.println("No se puede calcular la raíz cuadrada de un número negativo.");
         } else {
