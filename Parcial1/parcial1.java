@@ -2,7 +2,7 @@ package Parcial1;
 
 import java.util.Scanner;
 
-public class parcial2 {
+public class parcial1 {
 
 
     public static void main(String[] args) {
