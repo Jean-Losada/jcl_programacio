@@ -1,4 +1,4 @@
-package Clase7;
+package Clasenumero7;
 
 import java.util.Scanner;
 
@@ -12,13 +12,14 @@ public class Ejercicio3 {
         System.out.println("Ingrese numeros (0 para terminar): ");
         num = sc.nextInt();
 
-        while(num != 0){
+        while (num != 0){
             suma = suma + num;
             num = sc.nextInt();
 
-            System.out.println("La suma total es: " + suma);
-            
-            
+            System.out.println("La suma total es:" + suma );
+
+            sc.close();
         }
     }
-  }
+    
+}
