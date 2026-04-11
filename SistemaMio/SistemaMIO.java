@@ -184,7 +184,7 @@ package SistemaMio;
         System.out.println("Promedio: " + (totalPasajeros / 3));
     }
 
-    // ================= FASE 5 =================
+    // FASE 5 //
     public static void alertas() {
         int rutasConAlerta = 0;
 
@@ -215,7 +215,7 @@ package SistemaMio;
         System.out.println("Rutas con alerta: " + rutasConAlerta);
     }
 
-    // ================= MENU =================
+    // MENU // 
     public static void main(String[] args) {
         int opcion = -1;
 
