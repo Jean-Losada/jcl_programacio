@@ -1,12 +1,12 @@
 package SistemaMio;
 
-    import java.util.Scanner;
+import java.util.Scanner;
 
-        public class SistemaMIO {
+public class SistemaMIO {
 
     static Scanner sc = new Scanner(System.in);
 
-    //  FASE 1 //
+    // FASE 1 //
     public static void cobrarTarifa() {
         System.out.print("Ingrese la hora (0-23): ");
         int hora = sc.nextInt();
@@ -60,17 +60,17 @@ package SistemaMio;
         System.out.println("TOTAL: $" + total);
     }
 
-    //  FASE 2 //
-         public static void controlRuta() {
-            
-            int capacidadMaxima = 80;
-            int pasajerosActuales = 0;
-            int totalSubieron = 0;
-            int totalBajaron = 0;
-            int paradasRecorridas = 0;
-            int paradasConAforo = 0;
-            int parada = 1;
-            boolean rutaActiva = true;
+    // FASE 2 //
+    public static void controlRuta() {
+
+        int capacidadMaxima = 80;
+        int pasajerosActuales = 0;
+        int totalSubieron = 0;
+        int totalBajaron = 0;
+        int paradasRecorridas = 0;
+        int paradasConAforo = 0;
+        int parada = 1;
+        boolean rutaActiva = true;
 
         while (parada <= 25 && rutaActiva) {
             System.out.println("\n=== PARADA " + parada + " de 25 ===");
@@ -114,7 +114,7 @@ package SistemaMio;
                     estado = "NORMAL";
                 }
 
-                System.out.println("Estado: " + estado + " (" + (int)porcentaje + "%)");
+                System.out.println("Estado: " + estado + " (" + (int) porcentaje + "%)");
 
                 parada++;
                 paradasRecorridas++;
@@ -130,7 +130,7 @@ package SistemaMio;
     }
 
     // FASE 4 //
-        public static void reporteDia() {
+    public static void reporteDia() {
         int totalPasajeros = 0;
         double totalRecaudo = 0;
         int maxPasajeros = 0;
@@ -215,7 +215,7 @@ package SistemaMio;
         System.out.println("Rutas con alerta: " + rutasConAlerta);
     }
 
-    // MENU // 
+    // MENU //
     public static void main(String[] args) {
         int opcion = -1;
 
@@ -246,4 +246,3 @@ package SistemaMio;
         }
     }
 }
-
