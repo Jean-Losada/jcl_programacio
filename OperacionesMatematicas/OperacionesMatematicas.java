@@ -1,6 +1,6 @@
 package OperacionesMatematicas;
 
-public class Operaciones {
+public class OperacionesMatematicas {
 
     //Atributos
     private int a;
