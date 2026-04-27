@@ -1,8 +1,7 @@
-package OperacionesMatematicas;
-
 public class Calculadora {
-
-    int a = 3;
+    public static void main(String[] args) {
+       
+        int a = 3;
         int b = 8;
  
         OperacionesMatematicas objCalc1 = new OperacionesMatematicas(a, b);
@@ -14,3 +13,4 @@ public class Calculadora {
         System.out.println("potencia: " + objCalc1.potencia(a, b));
  
     }
+}
